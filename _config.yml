@@ -11,7 +11,7 @@ sass:
   style:    expanded
 
 # If safe is true no plugins will be executed.
-safe: false
+safe: true
 lsi: false
 markdown: kramdown
 

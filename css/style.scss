@@ -20,6 +20,7 @@ body {
 }
 body > .container {
     background-color: $container-background;
+    padding-bottom: 40px !important;
 }
 
 .post-header {

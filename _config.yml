@@ -1,0 +1,26 @@
+
+title: "MachineLearning.es"
+email: "guiferviz@gmail.com"
+description: >
+  "Página de Machine Learning en español."
+baseurl: ""
+url: "https://machinelearninges.github.io/"
+
+sass:
+  sass_dir: css
+  style:    expanded
+
+# If safe is true no plugins will be executed.
+safe: false
+lsi: false
+markdown: kramdown
+
+exclude:
+- README.md
+- run_server.sh
+- run_jupyter.sh
+
+# Custom variables.
+twitter_username: guiferviz
+github_username: guiferviz
+linkedin_username: guiferviz

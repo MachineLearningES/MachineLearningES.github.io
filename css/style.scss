@@ -1,0 +1,76 @@
+---
+---
+
+
+@import 'bootstrap';
+@import 'syntax-highlighting';
+
+
+// Custom CSS here.
+$font-size: 20px;
+$font-size-brand: 22px;
+$body-background: #efebeb;
+$container-background: white;
+
+body {
+    background-color: $body-background;
+}
+.content {
+    margin: auto 0;
+}
+body > .container {
+    background-color: $container-background;
+}
+
+.post-header {
+    margin-bottom: 40px;
+}
+
+.post-end {
+    margin-top: 40px;
+}
+
+pre > code {
+    white-space: unset !important;
+    overflow-x: auto !important;
+    color: white !important;
+}
+
+@media (min-width: 500px) {
+    * {
+       font-size: $font-size;
+    }
+    .language-none {
+        font-size: $font-size;
+    }
+    .navbar-brand {
+        font-size: $font-size-brand;
+    }
+}
+
+@media (min-width: 900px) {
+    .container {
+        width: 800px !important;
+    }
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+.navbar-brand {
+    margin-left: 10px;
+}
+
+.container {
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+}
+
+.label {
+    background-color: gray !important;
+    display: inline-block !important;
+}
+.container > .navbar-header {
+    margin-right: 0px;
+}

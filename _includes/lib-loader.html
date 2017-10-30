@@ -37,9 +37,17 @@
 {% endif %}
 
 <!-- d3js -->
-{% if page.d3js %}
+{% if page.d3jsv4 %}
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="https://d3js.org/d3-ease.v1.min.js"></script>
+{% endif %}
+{% if page.d3jsv3 %}
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+{% endif %}
+
+<!-- functionPlot -->
+{% if page.functionPlot %}
+    <script src="https://wzrd.in/standalone/function-plot@1.18.1"></script>
 {% endif %}
 
 <!-- mathbox -->
@@ -50,5 +58,5 @@
 
 <!-- three.js -->
 {% if page.threejs %}
-    <script src="/assets/lib/three.min.js"></script>
+    <script src="/lib/threejs/build/three.min.js"></script>
 {% endif %}
